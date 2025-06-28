@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+
+}
+body{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+   
+    padding: 0;
+}
+.head{
+    position: fixed;
+    top: 0px;
+    width: 100vh;
+    height: 13vh;
+    background-color:#B118C8 ;
+    z-index: 999;
+
+}
+
+.Wishes{
+font-family: 'Pacifico', cursive;
+font-size: 1.9em;
+color: white;
+position: relative;
+left: 6%;
+top:9%;
+
+}
+.text{
+    color: #B118C8;
+    font-size: 10vh;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;   /* horizontal */
+  align-items: center;       /* vertical */
+  height: 100%;             /* full screen height */
+  gap: 0px;                 /* space between spans */
+  flex-wrap: wrap;           /* optional, allows wrapping on small screens */
+}
+
+
+.text_box1{
+    position: relative;
+    top: 6vh;
+    height: 70vh;
+    width: 60vh;
+    margin-top: 13vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_box{
+    position: relative;
+    font-size: x-large;
+    font-family: "DM Sans";
+
+    
+    height: 70%;
+    width: 80%;
+    margin-top: 13vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.spans {
+  font-size: 8vh;
+  line-height: 0.6 !important;
+  margin: -3vh 0 !important;
+  padding: 0;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: hsl(292, 79%, 44%);
+}
+
+.random{
+    position: absolute;
+
+}
+.img{
+    position: relative;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 20vh;
+    height: 90;
+    
+    width: 100%;
+}
+
+
+
+
+
